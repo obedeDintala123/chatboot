@@ -1,0 +1,6 @@
+@import url("./assets/font/Poppins.css");
+
+body{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
