@@ -67,7 +67,7 @@ const Chat = ({ closeClick }: ChatProps) => {
             </header>
             <main className="h-72 bg-[#EAEEF3] px-2 flex flex-col overflow-y-auto" ref={chatRef}>
                 {messages.map((msg, index) => (
-                    <div key={index}  className={`max-w-[90%] p-2 rounded-lg mt-2 ${msg.isUser ? "self-end bg-[#00A6FF] text-white" : "self-start bg-gray-300 text-black"}`}>
+                    <div key={index}  className={`max-w-[90%] p-2 rounded-lg mt-2 ${msg.isUser ? "self-end bg-[#00a6ff] text-white" : "self-start bg-gray-300 text-black"}`}>
                         {msg.text}
                     </div>
                 ))}
