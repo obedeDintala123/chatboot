@@ -11,7 +11,7 @@ const Chat = ({ closeClick }: ChatProps) => {
     const [inputValue, setInputValue] = useState("");
     const chatRef = useRef<HTMLDivElement>(null);
 
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+    const apiKey = import.meta.env.VITE_GEMINI_API;
 
     useEffect(() => {
         if (chatRef.current) {
